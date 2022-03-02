@@ -12,5 +12,11 @@ even if its the same skin.
 - To find out what they are delete your assets folder (backup anything needed), then start up an instance and go into a world. Once in 2 folders will be created,
 one will have your skin and the other will have your cape. To find out which is which rename the file to end in .png and it should be viewable
 
+## Usage
+
+- Once installed, run startup.py with MultiMC open
+- Wait for all instances to load to title screen
+- Then run the setSkins.py script
+
 ## To be added
 - Settings startup
