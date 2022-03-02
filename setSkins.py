@@ -37,7 +37,7 @@ for i in range(len(PIDs)):
         shutil.copyfile(f"capes\{i+1}.png", cape_folder + f"\\{cape_id}")
     # Run reset.ahk
     open("hold.tmp", 'a').close()
-    script_str = f"pid := {PIDs[i]}\n"
+    script_str = f'pid := {PIDs[i]}\n sprintKey := "{sprint_key}"\n perspKey := "{perspective_key}"\n'
     with open("reset.ahk", "r") as ahk_script:
         script_str += ahk_script.read()
     ahk.run_script(script_str)

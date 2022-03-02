@@ -17,6 +17,3 @@ one will have your skin and the other will have your cape. To find out which is 
 - Once installed, run startup.py with MultiMC open
 - Wait for all instances to load to title screen
 - Then run the setSkins.py script
-
-## To be added
-- Settings startup
