@@ -44,3 +44,12 @@ for i in range(len(PIDs)):
     # Wait for file to exist
     while os.path.exists("hold.tmp"):
         print("resetting")
+
+if os.path.exists("PIDs.txt"):
+    os.remove("PIDs.txt")
+
+# Reset defaults
+if len(skin_id) > 0 and os.path.exists("skins\main.png"):
+    shutil.copyfile(f"skins\main.png", skin_folder + f"\\{skin_id}")
+if len(cape_id) > 0 and os.path.exists("capes\main.png"):
+    shutil.copyfile(f"capes\main.png", cape_folder + f"\\{cape_id}")
