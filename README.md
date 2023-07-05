@@ -4,8 +4,7 @@ Startup script with automatic skin & cape switching between instances.
 
 ## Installation
 
-- Install Python 3.7+ (Latest is recommended)
-- Install the ahk package by running `pip install ahk` in powershell
+- Install the ahk package by running `pip install ahk`, then `pip install psutil` in powershell
 - Put the cape/skin you want for each instance in the folder and name it i.png where i is the instance number (eg: 1.png). Make sure you have one for each instance, 
 even if its the same skin.
 - Edit the config.py to match your setup, the ids are the names of the files that your skin/cape are called under your assets folder in multimc
